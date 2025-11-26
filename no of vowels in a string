@@ -1,0 +1,5 @@
+s = input("Enter string: ")
+vowels = "aeiouAEIOU"
+count = sum(1 for ch in s if ch in vowels)
+
+print("Vowel Count =", count)
